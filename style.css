@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: #999 0px 3px 8px;
+    padding: 30px;
+}
+.form-main h1{
+    width: 400px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.data-main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #999 0px 3px 8px;
+    padding: 40px;
+}
+
+.data-main h1{
+    width: 600px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-Group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form-Group label{
+    width: 40%;
+    align-items: start;
+}
+
+
+.form-Group input{
+    width: 60%;
+    align-items: end;
+    background-color: #f7faf8;
+    box-shadow: #ddd 0px 3px 3px;
+}
+
+input:focus:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+.form-Group input:focus{
+    background-color: #f7faf8;
+    
+}
+
+.terms{
+    width: 100%;
+    margin-top: 20px;
+    align-items: start;
+}
+.btn-main{
+    width: 100%;
+    margin-top: 20px;
+    align-items: start;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+}
+table th{
+    text-align: center;
+}
+tbody td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+button{
+    background-color: #28b038;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #48a352;
+}
+
+
